@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('from_validation');
+$autoload['libraries'] = array('from_validation','session','database');
 
 /*
 | -------------------------------------------------------------------
@@ -71,7 +71,7 @@ $autoload['libraries'] = array('from_validation');
 |
 | Prototype:
 |
-|	$autoload['drivers'] = array('cache');
+|	$autoload['drivers'] = array('url');
 |
 | You can also supply an alternative property name to be assigned in
 | the controller:
@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('ModelUser','ModelBuku');
